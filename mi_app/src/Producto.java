@@ -18,7 +18,7 @@ public class Producto {
     }
     
 
-    //atributos de objetos
+    //muestra los atributos de los objetos
     public String toString(){
         return "Nombre: " + nombre + "\n" + "Precio: " + precio + "\n";
     }

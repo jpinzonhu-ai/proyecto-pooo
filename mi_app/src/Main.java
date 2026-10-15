@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Main{
     static void main(String[] args){
         Scanner scn = new Scanner (System.in);
-        int x = -1; //Controlador bucle
+        int x = -1; //Controlador del bucle
 
         //Lista de productos
         ArrayList<Producto> ListaProductos = new ArrayList<>();
@@ -33,7 +33,7 @@ public class Main{
                     break;
                 }
 
-                //muestra productos
+                //mostrar lista de productos
                 case 2:{
                     System.out.println("|Lista de productos|");
                     for (Producto p : ListaProductos){
@@ -44,6 +44,6 @@ public class Main{
             }
         }
 
-        System.out.println("Se acabo"); //Prueba de fin programa
+        System.out.println("Fin programa"); //Prueba de fin programa
     }
 }
